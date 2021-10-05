@@ -1,0 +1,10 @@
+/home/aitorzaldua/holochain/developer-exercises/1.basic/0.zome-functions/exercise/target/release/deps/rand_isaac-a9128d6278d49629.rmeta: /home/aitorzaldua/holochain/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_isaac-0.1.1/src/lib.rs /home/aitorzaldua/holochain/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_isaac-0.1.1/src/isaac.rs /home/aitorzaldua/holochain/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_isaac-0.1.1/src/isaac64.rs /home/aitorzaldua/holochain/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_isaac-0.1.1/src/isaac_array.rs
+
+/home/aitorzaldua/holochain/developer-exercises/1.basic/0.zome-functions/exercise/target/release/deps/librand_isaac-a9128d6278d49629.rlib: /home/aitorzaldua/holochain/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_isaac-0.1.1/src/lib.rs /home/aitorzaldua/holochain/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_isaac-0.1.1/src/isaac.rs /home/aitorzaldua/holochain/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_isaac-0.1.1/src/isaac64.rs /home/aitorzaldua/holochain/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_isaac-0.1.1/src/isaac_array.rs
+
+/home/aitorzaldua/holochain/developer-exercises/1.basic/0.zome-functions/exercise/target/release/deps/rand_isaac-a9128d6278d49629.d: /home/aitorzaldua/holochain/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_isaac-0.1.1/src/lib.rs /home/aitorzaldua/holochain/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_isaac-0.1.1/src/isaac.rs /home/aitorzaldua/holochain/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_isaac-0.1.1/src/isaac64.rs /home/aitorzaldua/holochain/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_isaac-0.1.1/src/isaac_array.rs
+
+/home/aitorzaldua/holochain/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_isaac-0.1.1/src/lib.rs:
+/home/aitorzaldua/holochain/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_isaac-0.1.1/src/isaac.rs:
+/home/aitorzaldua/holochain/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_isaac-0.1.1/src/isaac64.rs:
+/home/aitorzaldua/holochain/.cargo/registry/src/github.com-1ecc6299db9ec823/rand_isaac-0.1.1/src/isaac_array.rs:

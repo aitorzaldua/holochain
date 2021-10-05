@@ -1,0 +1,1 @@
+{"rustc":17807758859236181817,"features":"[]","target":9671131578331811250,"profile":13719610756125836611,"path":1377858488080853435,"deps":[],"local":[{"CheckDepInfo":{"dep_info":"debug/.fingerprint/ident_case-854df12e33a75d33/dep-lib-ident_case"}}],"rustflags":["-D","warnings","-C","codegen-units=10"],"metadata":10398133835647280813,"config":0,"compile_kind":0}

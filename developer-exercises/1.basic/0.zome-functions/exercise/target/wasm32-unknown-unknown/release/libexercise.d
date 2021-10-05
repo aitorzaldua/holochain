@@ -1,0 +1,1 @@
+/home/aitorzaldua/holochain/developer-exercises/1.basic/0.zome-functions/exercise/target/wasm32-unknown-unknown/release/libexercise.rlib: /home/aitorzaldua/holochain/developer-exercises/1.basic/0.zome-functions/exercise/zomes/exercise/src/lib.rs
