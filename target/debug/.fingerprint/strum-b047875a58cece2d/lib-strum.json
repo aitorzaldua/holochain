@@ -1,1 +1,0 @@
-{"rustc":17807758859236181817,"features":"[]","target":877982289864058218,"profile":3662541718096478492,"path":2555065932265591886,"deps":[],"local":[{"CheckDepInfo":{"dep_info":"debug/.fingerprint/strum-b047875a58cece2d/dep-lib-strum"}}],"rustflags":["-D","warnings","-C","codegen-units=10"],"metadata":10312764550288306599,"config":0,"compile_kind":0}
