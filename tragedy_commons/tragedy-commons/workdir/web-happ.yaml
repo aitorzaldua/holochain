@@ -1,0 +1,7 @@
+---
+manifest_version: "1"
+name: tragedy-commons
+ui:
+  bundled: "../ui/dist.zip"
+happ_manifest:
+  bundled: "./tragedy-commons.happ"

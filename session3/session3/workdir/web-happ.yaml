@@ -1,0 +1,7 @@
+---
+manifest_version: "1"
+name: session3
+ui:
+  bundled: "../ui/dist.zip"
+happ_manifest:
+  bundled: "./session3.happ"

@@ -1,0 +1,11 @@
+---
+manifest_version: "1"
+name: test_conf
+uuid: 00000000-0000-0000-0000-000000000000
+properties: ~
+zomes: 
+  - name: session3
+    bundled: ../../target/wasm32-unknown-unknown/release/session3.wasm
+  - name: zome_exercise
+    bundled: ../../target/wasm32-unknown-unknown/release/zome_exercise.wasm
+
