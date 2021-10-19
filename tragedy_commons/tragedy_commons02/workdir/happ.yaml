@@ -1,0 +1,17 @@
+---
+manifest_version: "1"
+name: tragedy_commons02
+description: ~
+slots:
+
+  - id: dna_01
+    provisioning:
+      strategy: create
+      deferred: false
+    dna:
+      bundled: "../dna/workdir/dna_01.dna"
+      properties: ~
+      uuid: ~
+      version: ~
+      clone_limit: 0
+

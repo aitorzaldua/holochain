@@ -5,7 +5,7 @@ pub const  GAME_CODES_ANCHOR: &str = "GAME_CODES";
 
 //Objetivo de la función:
 //1.- Con el hard_code del anchor principal, el primer usuario crea un anchor para la partida.
-//2.- Recibe un string shor_unique_code y devuelve un hash o un error
+//2.- Recibe un string shor_unique_code --que introduce el agente -- y devuelve un hash o un error
 pub fn create_game_code_anchor(short_unique_code: String) -> ExternResult<EntryHash> {
 
     //Se crea la variable anchor que linka la constante GAME_CODES_ANCHOR con short_unique_code
