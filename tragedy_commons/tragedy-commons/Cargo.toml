@@ -1,6 +1,6 @@
 [workspace]
 members = [
-      "dna/zomes/zome_01",
+      "dna/zomes/game_logic",
 ]
 
 [profile.dev]

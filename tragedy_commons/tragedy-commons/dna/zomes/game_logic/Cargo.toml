@@ -1,11 +1,11 @@
 [package]
 edition = "2018"
-name = "zome_01"
+name = "game_logic"
 version = "0.0.1"
 
 [lib]
 crate-type = ["cdylib", "rlib"]
-name = "zome_01"
+name = "game_logic"
 
 [dependencies]
 serde = "1"

@@ -2,7 +2,7 @@ import { Orchestrator, Player, Cell } from "@holochain/tryorama";
 import { config, installation, sleep } from '../utils';
 
 export default (orchestrator: Orchestrator<any>) => 
-  orchestrator.registerScenario("zome_01 tests", async (s, t) => {
+  orchestrator.registerScenario("game_logic tests", async (s, t) => {
     // Declare two players using the previously specified config, nicknaming them "alice" and "bob"
     // note that the first argument to players is just an array conductor configs that that will
     // be used to spin up the conductor processes which are returned in a matching array.
@@ -18,7 +18,7 @@ export default (orchestrator: Orchestrator<any>) =>
     const alice = alice_happ.cells.find(cell => cell.cellNick.includes('/game-of-commons.dna')) as Cell;
     const bob = bob_happ.cells.find(cell => cell.cellNick.includes('/game-of-commons.dna')) as Cell;
 
-    const ZOME_NAME = "zome_01";
+    const ZOME_NAME = "game_logic";
     const GAME_CODE = "ABCDE";
 
     // Alice creates a game code

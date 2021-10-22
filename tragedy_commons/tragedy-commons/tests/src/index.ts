@@ -1,12 +1,12 @@
 
 import { Orchestrator } from "@holochain/tryorama";
 
-import zome_01 from './tragedy-commons/zome_01';
+import game_logic from './game-of-commons/game_logic';
 
 let orchestrator: Orchestrator<any>;
 
 orchestrator = new Orchestrator();
-zome_01(orchestrator);
+game_logic(orchestrator);
 orchestrator.run();
 
 
