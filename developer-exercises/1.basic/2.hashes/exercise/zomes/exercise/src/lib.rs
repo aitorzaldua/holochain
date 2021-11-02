@@ -1,6 +1,16 @@
 use hdk::prelude::*;
 
+//entry_defs
 entry_defs![Book::entry_def()];
+
+
+//Structs
+#[derive(Serialize, Deserialize, Clone, Debug)]
+pub struct SomeExternalInput {
+    title: String,
+    content: String,
+}
+
 
 #[hdk_entry(id = "book")]
 pub struct Book {
@@ -8,9 +18,11 @@ pub struct Book {
     content: String,
 }
 
+
+//Functions
 #[hdk_extern]
 pub fn add_book(external_input: Book) -> ExternResult<EntryHash> { 
-    unimplemented!()
+    create_entry(external_input.title, external_input.content)
 }
 
 #[hdk_extern]
