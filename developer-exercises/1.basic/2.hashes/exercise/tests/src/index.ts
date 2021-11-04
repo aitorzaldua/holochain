@@ -41,7 +41,16 @@ orchestrator.registerScenario(
 
     t.ok(entryHash, "test add book");
 
+    let book = await alice_common.cells[0].call(
+      "exercise", // name of zome
+      "get_book", // function to call
+      entryHash // value to pass to the function
+    );
+    t.ok(book, "test get book"); // tape test assertion
+
   }
+
+  
 );
 
 orchestrator.run();
