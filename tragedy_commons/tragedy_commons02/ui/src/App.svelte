@@ -13,18 +13,18 @@
 		cell_id: cell_id,
 		zome_name: 'zome_01',
 		fn_name: 'create_post',
-		payload: 'my post',
+		payload: ('my postalita1','content1'),
 		provenance: cell_id[1],
 	}).then(hash => postHash = hash);
 
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<h1>Hola {name}!</h1>
+	<p>Estoy creando mi primer proyecto con Holochain.</p>
 
 	{#if postHash}
-		<span>Created new Holochain entry! Post with hash {postHash}</span>
+		<span>Se llama a la función create_post del zome zome_01 y devuelve el Post con hash => {postHash}</span>
 	{:else}
 		<span>Creating...</span>
 	{/if}
@@ -36,10 +36,12 @@
 		padding: 1em;
 		max-width: 240px;
 		margin: 0 auto;
+		background-color: aquamarine;
 	}
+	
 
 	h1 {
-		color: #ff3e00;
+		color: black;
 		text-transform: uppercase;
 		font-size: 4em;
 		font-weight: 100;

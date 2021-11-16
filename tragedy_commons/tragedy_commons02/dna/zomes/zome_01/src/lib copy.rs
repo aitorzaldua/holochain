@@ -2,22 +2,18 @@ use hdk::prelude::*;
 use hdk::prelude::holo_hash::*;
 
 #[hdk_entry(id = "post")]
-pub struct Book {
-    title: String,
-    content: String,
-};
+pub struct Post(String);
 
 entry_defs![
     Post::entry_def()
 ];
 
 #[hdk_extern]
-pub fn create_post (external_input: Post) -> ExternResult<EntryHashB64> {
-    let book: Book = external_input;
-    let _unused_var: HeaderHash = create_entry(&book)?;
-    let entry_hash: EntryHash = hash_entry(&book)?;
+pub fn create_post(post: Post) -> ExternResult<EntryHashB64> {
+    create_entry(&post)?;
+    let hash = hash_entry(&post)?;
 
-    Ok(EntryHashB64::from(entry_hash))
+    Ok(EntryHashB64::from(hash))
 }
 
 #[hdk_extern]

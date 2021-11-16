@@ -13,7 +13,7 @@ async function setup() {
   const app = new App({
     target: document.body,
     props: {
-      name: 'world',
+      name: 'Mila',
       appWebsocket,
       cell_id: cellData.cell_id
     },
